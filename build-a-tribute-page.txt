@@ -1,0 +1,125 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title id="title">Wally</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+        <header>
+          <div class="heading">
+            <h1>Wally Wu</h1>
+            <p id="intro">The Man Who Miraculously evaded death and <br />
+            died 3 times</p>
+          </div>
+        </header> 
+          <div class="img-background" id="img-div">
+            <figure>
+              <img id="image" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/387530771_182361778242846_8420566002290216946_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=510075&_nc_ohc=5t3qeYkx7A8AX-0ieT9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ7MRNS6YMX1bNWcnur0b7JB6IH7L-g48K4Q-dK_SnE4A&oe=65517888"
+" 
+    alt="wallace">
+              <figcaption id="img-caption">Senor wally (right) is taking a photo with Leo. Both looked shocked and sped</figcaption>
+            </figure>
+        </div>
+        <h2>Here are some events of his life:</h2>
+        <article id="tribute-info" class="main-text">
+          
+          <p id="tribute-info">
+            <ul>
+              <li><strong>2020 - </strong>We met Wallace. He was a humble lil asian man. After gettting familiar with him , he became a tank. Always tackling poeple and slappin ass. He was the first major influential skater at MLK that soon spread to many. His redeeming qualities allowed him to be recognized as a valued member of the community. He was also well known for being sped. </li>
+              <li><strong><!--  remember right after he ate it from Kaitlyn Hill. I see him walking into class with a cast or a brace on his hand ( kevin ) --> </strong>
+            </ul>
+          </p>
+        </article>
+        <!-- TODO : add a funny qute from wallace like "yaya, skeeyee" -->
+        <article class="quote">
+          <p><em><a href="" target="_blank" id="tribute-link"><a></em></p>
+        </article>
+      
+    </main>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+  
+}
+.container{
+  background-color:lightgrey;
+  margin-top:20px;
+  border-radius:2%;
+
+}
+h1 , #intro{
+  text-align:center;
+}
+h1 {
+  padding:20px 0;
+  font-family:sans-serif;
+  top:0;
+  width:100%;
+}
+#intro {
+  padding-bottom:20px;
+}
+
+.img-background{
+  width:90%;
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
+  padding:15px 20px;
+  border-radius:5px;
+}
+
+img{
+  width: max(100px, 78vw);
+  aspect-ratio: 8 / 5;
+  border-radius:4px;
+  max-width:100%;
+  display:block;
+}
+
+figcaption{
+  padding:20px 20px 0 20px;
+  text-align:center;
+}
+
+h2 {
+  text-align:center;
+  padding:40px 0;
+  display:block;
+}
+
+.main-text{
+  width:min(600px , 90vw);
+  margin:auto;
+  
+}
+
+li {
+  padding-bottom:20px;
+}
+
+
+
+** end of undefined **
+
